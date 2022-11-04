@@ -1,4 +1,4 @@
-!SESSION 2022-11-01 12:25:00.005 -----------------------------------------------
+!SESSION 2022-11-03 18:58:55.171 -----------------------------------------------
 eclipse.buildId=4.14.0.202203131612
 java.version=17.0.2
 java.vendor=Eclipse Adoptium
@@ -6,15 +6,15 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_MX
 Framework arguments:  -product org.springframework.boot.ide.branding.sts4
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
 
-!ENTRY org.eclipse.jface 2 0 2022-11-01 12:25:19.770
+!ENTRY org.eclipse.jface 2 0 2022-11-03 18:59:00.724
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-11-01 12:25:19.770
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-11-03 18:59:00.724
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
 		Open a type in a Java editor,
 		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7ea039b4,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@24e7087a,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -22,17 +22,17 @@ Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
 		,
 		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1aef7428,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5bb3dee7,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-11-01 12:25:19.770
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-11-03 18:59:00.724
 !MESSAGE A conflict occurred for ALT+SHIFT+R:
 Binding(ALT+SHIFT+R,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
 		Rename the selected element,
 		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1610c03c,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@284f25e6,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -40,310 +40,21 @@ Binding(ALT+SHIFT+R,
 	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
 		Rename the selected item,
 		Category(org.eclipse.ui.category.file,File,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@332fa1c,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@285b491f,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
-!ENTRY org.eclipse.egit.ui 2 0 2022-11-01 12:25:22.681
+!ENTRY org.eclipse.egit.ui 2 0 2022-11-03 18:59:03.138
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\lgonzavi'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
-!ENTRY org.eclipse.core.net 4 0 2022-11-01 12:25:22.979
-!MESSAGE WinHttp.GetProxyForUrl for pac failed with error 'Controlador no válido.
-' #6.
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:31:28.579
-!MESSAGE Entering DelegatingStreamConnectionProvider()
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:31:28.580
-!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@63dfcd25[org.springframework.tooling.boot.ls:1.32.0.202203131529(id=569)]
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:31:28.584
-!MESSAGE SpringBootLanguageServer exists!
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:31:28.629
-!MESSAGE Instantiating ReusableClasspathListenerHandler
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:31:31.359
-!MESSAGE Boot LS startup time from start to initialized: 2769ms
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:31:31.483
-!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.iAXhzzZVisBatched = true
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:31:31.486
-!MESSAGE Setting up ClasspathListenerManager
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:31:31.488
-!MESSAGE Scheduling initial event for all projects ...
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:31:31.489
-!MESSAGE Scheduling initial event for all projects DONE
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:31:31.490
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:31:31.490
-!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.iAXhzzZV => OK
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:31:31.498
-!MESSAGE classpath=93 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:31:31.501
-!MESSAGE buffering callback sts4.classpath.iAXhzzZV usuario-service false 93
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:31:31.502
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:31:31.506
-!MESSAGE classpath=91 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:31:31.509
-!MESSAGE buffering callback sts4.classpath.iAXhzzZV carro-service false 91
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:31:31.510
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:31:31.515
-!MESSAGE classpath=91 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:31:31.517
-!MESSAGE buffering callback sts4.classpath.iAXhzzZV moto-service false 91
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:31:31.518
-!MESSAGE executing callback sts4.classpath.iAXhzzZV 3 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:31:31.912
-!MESSAGE executing callback sts4.classpath.iAXhzzZV SUCCESS [done]
-
-!ENTRY org.eclipse.ui 2 2 2022-11-01 12:32:27.752
+!ENTRY org.eclipse.ui 2 2 2022-11-03 18:59:21.363
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:33:32.658
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:33:32.663
-!MESSAGE classpath=109 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:33:32.668
-!MESSAGE buffering callback sts4.classpath.iAXhzzZV usuario-service false 109
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:33:32.669
-!MESSAGE executing callback sts4.classpath.iAXhzzZV 1 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:33:32.700
-!MESSAGE executing callback sts4.classpath.iAXhzzZV SUCCESS [done]
-
-!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-11-01 12:33:33.687
-!MESSAGE Could not download sources for org.springframework.cloud:spring-cloud-starter-openfeign:3.0.7
-!STACK 1
-org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-openfeign:jar:sources:3.0.7
-	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
-	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
-	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
-	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Contains: Missing org.springframework.cloud:spring-cloud-starter-openfeign:jar:sources:3.0.7
-!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-11-01 12:33:33.688
-!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-openfeign:jar:sources:3.0.7
-!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-11-01 12:33:33.688
-!MESSAGE Missing org.springframework.cloud:spring-cloud-starter-openfeign:jar:sources:3.0.7
-
-!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-11-01 12:33:34.038
-!MESSAGE Could not download sources for org.springframework.cloud:spring-cloud-starter:3.0.6
-!STACK 1
-org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter:jar:sources:3.0.6
-	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
-	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
-	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
-	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Contains: Missing org.springframework.cloud:spring-cloud-starter:jar:sources:3.0.6
-!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-11-01 12:33:34.039
-!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter:jar:sources:3.0.6
-!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-11-01 12:33:34.039
-!MESSAGE Missing org.springframework.cloud:spring-cloud-starter:jar:sources:3.0.6
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:33:44.103
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:33:44.115
-!MESSAGE classpath=109 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:33:44.142
-!MESSAGE buffering callback sts4.classpath.iAXhzzZV usuario-service false 109
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:33:44.143
-!MESSAGE executing callback sts4.classpath.iAXhzzZV 1 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:33:44.176
-!MESSAGE executing callback sts4.classpath.iAXhzzZV SUCCESS [done]
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:34:30.844
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:34:30.848
-!MESSAGE classpath=108 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:34:30.852
-!MESSAGE buffering callback sts4.classpath.iAXhzzZV usuario-service false 108
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:34:30.853
-!MESSAGE executing callback sts4.classpath.iAXhzzZV 1 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:34:30.875
-!MESSAGE executing callback sts4.classpath.iAXhzzZV SUCCESS [done]
-
-!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-11-01 12:34:31.995
-!MESSAGE Could not download sources for org.springframework.cloud:spring-cloud-starter-openfeign:3.0.3
-!STACK 1
-org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-openfeign:jar:sources:3.0.3
-	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
-	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
-	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
-	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Contains: Missing org.springframework.cloud:spring-cloud-starter-openfeign:jar:sources:3.0.3
-!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-11-01 12:34:31.995
-!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-openfeign:jar:sources:3.0.3
-!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-11-01 12:34:31.995
-!MESSAGE Missing org.springframework.cloud:spring-cloud-starter-openfeign:jar:sources:3.0.3
-
-!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-11-01 12:34:32.278
-!MESSAGE Could not download sources for org.springframework.cloud:spring-cloud-starter:3.0.3
-!STACK 1
-org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter:jar:sources:3.0.3
-	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
-	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
-	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
-	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Contains: Missing org.springframework.cloud:spring-cloud-starter:jar:sources:3.0.3
-!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-11-01 12:34:32.278
-!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter:jar:sources:3.0.3
-!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-11-01 12:34:32.278
-!MESSAGE Missing org.springframework.cloud:spring-cloud-starter:jar:sources:3.0.3
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:34:38.752
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:34:38.756
-!MESSAGE classpath=108 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:34:38.759
-!MESSAGE buffering callback sts4.classpath.iAXhzzZV usuario-service false 108
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:34:38.760
-!MESSAGE executing callback sts4.classpath.iAXhzzZV 1 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:34:38.779
-!MESSAGE executing callback sts4.classpath.iAXhzzZV SUCCESS [done]
-
-!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-11-01 12:35:32.998
-!MESSAGE Could not download javadoc for org.springframework.cloud:spring-cloud-starter-openfeign:3.0.3
-!STACK 1
-org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-openfeign:jar:javadoc:3.0.3
-	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
-	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
-	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:297)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
-	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Contains: Missing org.springframework.cloud:spring-cloud-starter-openfeign:jar:javadoc:3.0.3
-!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-11-01 12:35:32.998
-!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-openfeign:jar:javadoc:3.0.3
-!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-11-01 12:35:32.998
-!MESSAGE Missing org.springframework.cloud:spring-cloud-starter-openfeign:jar:javadoc:3.0.3
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:35:33.744
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:35:33.750
-!MESSAGE classpath=108 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:35:33.755
-!MESSAGE buffering callback sts4.classpath.iAXhzzZV usuario-service false 108
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:35:33.756
-!MESSAGE executing callback sts4.classpath.iAXhzzZV 1 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:35:33.783
-!MESSAGE executing callback sts4.classpath.iAXhzzZV SUCCESS [done]
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:55:26.800
-!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.iAXhzzZV
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:55:26.801
-!MESSAGE unsubscribing from classpath changes: sts4.classpath.iAXhzzZV
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:55:26.802
-!MESSAGE subsribers = {}
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-01 12:55:26.802
-!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.iAXhzzZV => OK
-!SESSION 2022-11-03 17:36:01.683 -----------------------------------------------
+!SESSION 2022-11-03 19:00:22.223 -----------------------------------------------
 eclipse.buildId=4.14.0.202203131612
 java.version=17.0.2
 java.vendor=Eclipse Adoptium
@@ -351,110 +62,15 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_MX
 Framework arguments:  -product org.springframework.boot.ide.branding.sts4
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
 
-!ENTRY org.eclipse.core.resources 4 567 2022-11-03 17:36:06.017
-!MESSAGE Workspace restored, but some problems occurred.
-!SUBENTRY 1 org.eclipse.core.resources 4 567 2022-11-03 17:36:06.017
-!MESSAGE Could not read metadata for 'moto-service'.
-!STACK 1
-org.eclipse.core.internal.resources.ResourceException(/moto-service)[567]: java.lang.Exception: The project description file (.project) for 'moto-service' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
-	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
-	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
-	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
-	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
-	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:868)
-	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
-	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1555)
-	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2482)
-	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2233)
-	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:475)
-	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:813)
-	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
-	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:805)
-	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:762)
-	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)
-	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
-	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
-	at org.eclipse.osgi.container.Module.start(Module.java:468)
-	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:513)
-	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
-	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
-	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
-	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)
-	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
-	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:484)
-	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
-	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-!SUBENTRY 2 org.eclipse.core.resources 4 567 2022-11-03 17:36:06.017
-!MESSAGE The project description file (.project) for 'moto-service' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
-!STACK 0
-java.lang.Exception: The project description file (.project) for 'moto-service' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
-	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
-	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
-	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
-	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
-	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:868)
-	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
-	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1555)
-	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2482)
-	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2233)
-	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:475)
-	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:813)
-	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
-	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:805)
-	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:762)
-	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)
-	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
-	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
-	at org.eclipse.osgi.container.Module.start(Module.java:468)
-	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:513)
-	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
-	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
-	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
-	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)
-	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
-	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:484)
-	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
-	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.jface 2 0 2022-11-03 17:36:08.246
+!ENTRY org.eclipse.jface 2 0 2022-11-03 19:00:41.343
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-11-03 17:36:08.246
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-11-03 19:00:41.343
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
 		Open a type in a Java editor,
 		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5b71af0d,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7fcbc336,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -462,17 +78,17 @@ Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
 		,
 		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@fb42c1c,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1fe7fa16,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-11-03 17:36:08.246
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-11-03 19:00:41.343
 !MESSAGE A conflict occurred for ALT+SHIFT+R:
 Binding(ALT+SHIFT+R,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
 		Rename the selected element,
 		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4edde05c,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@61503d00,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -480,142 +96,21 @@ Binding(ALT+SHIFT+R,
 	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
 		Rename the selected item,
 		Category(org.eclipse.ui.category.file,File,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2911db81,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1fcfcf37,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:36:12.175
-!MESSAGE Entering DelegatingStreamConnectionProvider()
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:36:12.177
-!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6dc07931[org.springframework.tooling.boot.ls:1.32.0.202203131529(id=569)]
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:36:12.179
-!MESSAGE SpringBootLanguageServer exists!
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:36:12.711
-!MESSAGE Instantiating ReusableClasspathListenerHandler
-
-!ENTRY org.eclipse.core.net 4 0 2022-11-03 17:36:13.026
-!MESSAGE WinHttp.GetProxyForUrl for pac failed with error 'Controlador no válido.
-' #6.
-
-!ENTRY org.eclipse.egit.ui 2 0 2022-11-03 17:36:13.059
+!ENTRY org.eclipse.egit.ui 2 0 2022-11-03 19:00:43.490
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\lgonzavi'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:36:17.160
-!MESSAGE Boot LS startup time from start to initialized: 4973ms
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:36:17.293
-!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.oKRYemqOisBatched = true
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:36:17.296
-!MESSAGE Setting up ClasspathListenerManager
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:36:17.298
-!MESSAGE Scheduling initial event for all projects ...
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:36:17.301
-!MESSAGE Scheduling initial event for all projects DONE
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:36:17.302
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:36:17.302
-!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.oKRYemqO => OK
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:36:17.309
-!MESSAGE classpath=108 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:36:17.314
-!MESSAGE buffering callback sts4.classpath.oKRYemqO usuario-service false 108
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:36:17.315
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:36:17.320
-!MESSAGE classpath=91 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:36:17.323
-!MESSAGE buffering callback sts4.classpath.oKRYemqO carro-service false 91
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:36:17.324
-!MESSAGE executing callback sts4.classpath.oKRYemqO 2 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:36:17.777
-!MESSAGE executing callback sts4.classpath.oKRYemqO SUCCESS [done]
-
-!ENTRY org.eclipse.core.resources 4 567 2022-11-03 17:39:16.979
-!MESSAGE The project description file (.project) for 'moto-service' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
-!STACK 0
-java.lang.Exception: The project description file (.project) for 'moto-service' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
-	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
-	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
-	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
-	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
-	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:763)
-	at org.eclipse.core.internal.resources.Project.open(Project.java:1061)
-	at org.eclipse.ui.actions.OpenResourceAction$1.doOpenWithReferences(OpenResourceAction.java:233)
-	at org.eclipse.ui.actions.OpenResourceAction$1.runInWorkspace(OpenResourceAction.java:279)
-	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.ui 2 2 2022-11-03 17:41:22.945
+!ENTRY org.eclipse.ui 2 2 2022-11-03 19:00:47.307
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:42:15.531
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:42:15.542
-!MESSAGE classpath=91 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:42:15.546
-!MESSAGE buffering callback sts4.classpath.oKRYemqO carro-service false 91
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:42:15.546
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:42:15.553
-!MESSAGE classpath=108 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:42:15.558
-!MESSAGE buffering callback sts4.classpath.oKRYemqO usuario-service false 108
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:42:15.559
-!MESSAGE executing callback sts4.classpath.oKRYemqO 2 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:42:15.632
-!MESSAGE executing callback sts4.classpath.oKRYemqO SUCCESS [done]
-
-!ENTRY org.eclipse.lsp4e 2 0 2022-11-03 17:43:07.110
-!MESSAGE Javadoc unavailable. Failed to obtain it.
-!STACK 0
-java.lang.InterruptedException
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
-	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
-	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:44:02.659
-!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.oKRYemqO
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:44:02.660
-!MESSAGE unsubscribing from classpath changes: sts4.classpath.oKRYemqO
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:44:02.661
-!MESSAGE subsribers = {}
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:44:02.662
-!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.oKRYemqO => OK
-!SESSION 2022-11-03 17:44:06.672 -----------------------------------------------
+!SESSION 2022-11-03 19:04:06.129 -----------------------------------------------
 eclipse.buildId=4.14.0.202203131612
 java.version=17.0.2
 java.vendor=Eclipse Adoptium
@@ -623,15 +118,15 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_MX
 Framework arguments:  -product org.springframework.boot.ide.branding.sts4
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
 
-!ENTRY org.eclipse.jface 2 0 2022-11-03 17:44:35.577
+!ENTRY org.eclipse.jface 2 0 2022-11-03 19:04:18.074
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-11-03 17:44:35.577
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-11-03 19:04:18.074
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
 		Open a type in a Java editor,
 		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5274830e,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@374ba492,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -639,17 +134,17 @@ Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
 		,
 		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6a0ee80,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@581d5b33,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-11-03 17:44:35.577
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-11-03 19:04:18.074
 !MESSAGE A conflict occurred for ALT+SHIFT+R:
 Binding(ALT+SHIFT+R,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
 		Rename the selected element,
 		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@71de1091,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1f365a26,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -657,150 +152,92 @@ Binding(ALT+SHIFT+R,
 	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
 		Rename the selected item,
 		Category(org.eclipse.ui.category.file,File,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@25c16cf7,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@44a9971f,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:44:38.840
-!MESSAGE Entering DelegatingStreamConnectionProvider()
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:44:38.842
-!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@352d1e07[org.springframework.tooling.boot.ls:1.32.0.202203131529(id=569)]
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:44:38.845
-!MESSAGE SpringBootLanguageServer exists!
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:44:38.882
-!MESSAGE Instantiating ReusableClasspathListenerHandler
-
-!ENTRY org.eclipse.egit.ui 2 0 2022-11-03 17:44:39.584
+!ENTRY org.eclipse.egit.ui 2 0 2022-11-03 19:04:20.249
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\lgonzavi'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:44:41.902
-!MESSAGE Boot LS startup time from start to initialized: 3050ms
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-11-03 19:04:53.432
+!MESSAGE failed to load maven project for org.eclipse.ui.part.FileEditorInput(/moto-service/pom.xml)
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read maven project
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:831)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$26(ProjectRegistryManager.java:1049)
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1220)
+	at java.base/java.util.Collections$SynchronizedMap.computeIfAbsent(Collections.java:2760)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$25(ProjectRegistryManager.java:1048)
+	at java.base/java.util.Map.computeIfAbsent(Map.java:1054)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1048)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:261)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:257)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:659)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:979)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Some problems were encountered while processing the POMs:
+[ERROR] 'dependencies.dependency.version' for org.springframework.cloud:spring-cloud-starter-config:jar is missing. @ line 46, column 15
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:44:41.984
-!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.sMGeMRxXisBatched = true
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[ERROR] 'dependencies.dependency.version' for org.springframework.cloud:spring-cloud-starter-config:jar is missing. @ line 46, column 15
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:44:41.986
-!MESSAGE Setting up ClasspathListenerManager
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProjects(MavenImpl.java:696)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$16(ProjectRegistryManager.java:851)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:1009)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:847)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:817)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$26(ProjectRegistryManager.java:1049)
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1220)
+	at java.base/java.util.Collections$SynchronizedMap.computeIfAbsent(Collections.java:2760)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$25(ProjectRegistryManager.java:1048)
+	at java.base/java.util.Map.computeIfAbsent(Map.java:1054)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1048)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:261)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:257)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:659)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:979)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.m2e.core 4 0 2022-11-03 19:04:53.433
+!MESSAGE Could not read maven project
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2022-11-03 19:04:53.433
+!MESSAGE Some problems were encountered while processing the POMs:
+[ERROR] 'dependencies.dependency.version' for org.springframework.cloud:spring-cloud-starter-config:jar is missing. @ line 46, column 15
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:44:41.990
-!MESSAGE Scheduling initial event for all projects ...
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:44:41.991
-!MESSAGE Scheduling initial event for all projects DONE
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:44:41.992
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:44:41.993
-!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.sMGeMRxX => OK
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:44:42.000
-!MESSAGE classpath=108 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:44:42.005
-!MESSAGE buffering callback sts4.classpath.sMGeMRxX usuario-service false 108
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:44:42.006
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:44:42.011
-!MESSAGE classpath=91 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:44:42.015
-!MESSAGE buffering callback sts4.classpath.sMGeMRxX carro-service false 91
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:44:42.016
-!MESSAGE executing callback sts4.classpath.sMGeMRxX 2 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:44:42.460
-!MESSAGE executing callback sts4.classpath.sMGeMRxX SUCCESS [done]
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:47:25.685
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:47:25.691
-!MESSAGE classpath=87 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:47:25.695
-!MESSAGE buffering callback sts4.classpath.sMGeMRxX config-service false 87
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:47:25.697
-!MESSAGE executing callback sts4.classpath.sMGeMRxX 1 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:47:25.722
-!MESSAGE executing callback sts4.classpath.sMGeMRxX SUCCESS [done]
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:47:25.900
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:47:25.906
-!MESSAGE classpath=89 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:47:25.910
-!MESSAGE buffering callback sts4.classpath.sMGeMRxX config-service false 89
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:47:25.911
-!MESSAGE executing callback sts4.classpath.sMGeMRxX 1 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:47:25.933
-!MESSAGE executing callback sts4.classpath.sMGeMRxX SUCCESS [done]
-
-!ENTRY org.eclipse.core.resources 4 567 2022-11-03 17:47:34.732
-!MESSAGE The project description file (.project) for 'moto-service' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
 !STACK 0
-java.lang.Exception: The project description file (.project) for 'moto-service' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
-	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
-	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
-	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
-	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
-	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:763)
-	at org.eclipse.core.internal.resources.Project.open(Project.java:1061)
-	at org.eclipse.ui.actions.OpenResourceAction$1.doOpenWithReferences(OpenResourceAction.java:233)
-	at org.eclipse.ui.actions.OpenResourceAction$1.runInWorkspace(OpenResourceAction.java:279)
-	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[ERROR] 'dependencies.dependency.version' for org.springframework.cloud:spring-cloud-starter-config:jar is missing. @ line 46, column 15
+
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProjects(MavenImpl.java:696)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$16(ProjectRegistryManager.java:851)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:1009)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:847)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:817)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$26(ProjectRegistryManager.java:1049)
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1220)
+	at java.base/java.util.Collections$SynchronizedMap.computeIfAbsent(Collections.java:2760)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$25(ProjectRegistryManager.java:1048)
+	at java.base/java.util.Map.computeIfAbsent(Map.java:1054)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1048)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:261)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:257)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:659)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:979)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:47:38.835
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:47:38.840
-!MESSAGE classpath=89 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:47:38.844
-!MESSAGE buffering callback sts4.classpath.sMGeMRxX config-service false 89
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:47:38.845
-!MESSAGE executing callback sts4.classpath.sMGeMRxX 1 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:47:38.863
-!MESSAGE executing callback sts4.classpath.sMGeMRxX SUCCESS [done]
-
-!ENTRY org.eclipse.ui 2 2 2022-11-03 17:53:19.001
-!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:53:33.451
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:53:33.457
-!MESSAGE classpath=89 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:53:33.461
-!MESSAGE buffering callback sts4.classpath.sMGeMRxX config-service false 89
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:53:33.462
-!MESSAGE executing callback sts4.classpath.sMGeMRxX 1 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-03 17:53:33.536
-!MESSAGE executing callback sts4.classpath.sMGeMRxX SUCCESS [done]
-
-!ENTRY org.eclipse.core.net 4 0 2022-11-03 17:53:56.506
+!ENTRY org.eclipse.core.net 4 0 2022-11-03 19:04:54.703
 !MESSAGE WinHttp.GetProxyForUrl for pac failed with error 'Controlador no válido.
 ' #6.
+
+!ENTRY org.eclipse.ui 2 2 2022-11-03 19:05:46.650
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
