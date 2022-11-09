@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          default-label: multiple-instances
+          default-label: multimple-instances
           uri: https://github.com/Luisiigna/microservicios-practica-intento
           search-paths: config-data
   application:
