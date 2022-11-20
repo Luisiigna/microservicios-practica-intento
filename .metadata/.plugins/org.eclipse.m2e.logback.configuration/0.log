@@ -210,3 +210,85 @@ org.eclipse.core.runtime.CoreException: Could not read maven project
 2022-11-04 17:24:22,576 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2022-11-04 17:24:22,579 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-11-04 17:24:22,581 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-11 10:54:13,094 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-11-11 10:54:44,467 [Worker-13: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-11 10:54:45,698 [Worker-13: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.gateway.service:gateway-service:0.0.1-SNAPSHOT @ C:\Users\lgonzavi\Desktop\Microservicios-tutorial\gateway-service\target\classes\META-INF\maven\com.gateway.service\gateway-service\pom.xml.
+2022-11-11 10:54:47,242 [Worker-2: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.moto.service:moto-service:0.0.1-SNAPSHOT @ C:\Users\lgonzavi\Desktop\Microservicios-tutorial\moto-service\pom.xml.
+2022-11-11 10:54:47,363 [Worker-13: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.gateway.service_gateway-service/src/main/java
+2022-11-11 10:54:47,364 [Worker-13: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.gateway.service_gateway-service/src/test/java
+2022-11-11 10:54:49,020 [Worker-13: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2022-11-11 10:54:49,023 [Worker-13: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-11 10:54:49,228 [Worker-13: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.eureka.service:eureka-service:0.0.1-SNAPSHOT @ C:\Users\lgonzavi\Desktop\Microservicios-tutorial\eureka-service\target\classes\META-INF\maven\com.eureka.service\eureka-service\pom.xml.
+2022-11-11 10:54:49,547 [Worker-13: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.gateway.service:gateway-service:0.0.1-SNAPSHOT @ C:\Users\lgonzavi\Desktop\Microservicios-tutorial\gateway-service\target\classes\META-INF\maven\com.gateway.service\gateway-service\pom.xml.
+2022-11-11 10:54:50,316 [Worker-13: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.gateway.service_gateway-service/src/main/java
+2022-11-11 10:54:50,317 [Worker-13: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.gateway.service_gateway-service/src/test/java
+2022-11-11 10:54:50,727 [Worker-13: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.eureka.service_eureka-service/src/main/java
+2022-11-11 10:54:50,728 [Worker-13: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.eureka.service_eureka-service/src/test/java
+2022-11-11 10:54:51,410 [Worker-13: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2022-11-11 10:54:51,972 [Worker-8: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: carro-service:demo:0.0.1-SNAPSHOT @ C:\Users\lgonzavi\Desktop\Microservicios-tutorial\carro-service\pom.xml.
+2022-11-11 10:54:52,582 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-11 10:54:52,582 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-11 10:54:52,585 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-11 10:54:52,586 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-11 10:54:52,597 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-11 10:54:52,597 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-11 10:54:52,597 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lgonzavi\Desktop\Microservicios-tutorial\carro-service\src\test\resources
+2022-11-11 10:54:52,622 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-11 10:54:52,622 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-11 10:54:52,623 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lgonzavi\Desktop\Microservicios-tutorial\eureka-service\target\classes\META-INF\maven\com.eureka.service\eureka-service\src\main\resources
+2022-11-11 10:54:52,623 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lgonzavi\Desktop\Microservicios-tutorial\eureka-service\target\classes\META-INF\maven\com.eureka.service\eureka-service\src\main\resources
+2022-11-11 10:54:52,625 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-11 10:54:52,625 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-11 10:54:52,625 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lgonzavi\Desktop\Microservicios-tutorial\eureka-service\target\classes\META-INF\maven\com.eureka.service\eureka-service\src\test\resources
+2022-11-11 10:54:52,946 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-11 10:54:52,946 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-11 10:54:52,946 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lgonzavi\Desktop\Microservicios-tutorial\gateway-service\target\classes\META-INF\maven\com.gateway.service\gateway-service\src\main\resources
+2022-11-11 10:54:52,946 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lgonzavi\Desktop\Microservicios-tutorial\gateway-service\target\classes\META-INF\maven\com.gateway.service\gateway-service\src\main\resources
+2022-11-11 10:54:52,948 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-11 10:54:52,948 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-11 10:54:52,948 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lgonzavi\Desktop\Microservicios-tutorial\gateway-service\target\classes\META-INF\maven\com.gateway.service\gateway-service\src\test\resources
+2022-11-11 10:54:53,230 [Worker-8: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.config.service:config-service:0.0.1-SNAPSHOT @ C:\Users\lgonzavi\Desktop\Microservicios-tutorial\config-service\pom.xml.
+2022-11-11 10:54:53,565 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-11 10:54:53,565 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-11 10:54:53,565 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-11 10:54:53,572 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-11 10:54:53,574 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-11 10:54:53,574 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-11 10:54:53,574 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lgonzavi\Desktop\Microservicios-tutorial\config-service\src\test\resources
+2022-11-11 10:54:53,960 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-11 10:54:53,961 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-11 10:54:53,961 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-11 10:54:53,961 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-11 10:54:53,967 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-11 10:54:53,967 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-11 10:54:53,967 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lgonzavi\Desktop\Microservicios-tutorial\moto-service\src\test\resources
+2022-11-11 10:54:54,318 [Worker-8: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: usuario-service:usuario-service:0.0.1-SNAPSHOT @ C:\Users\lgonzavi\Desktop\Microservicios-tutorial\usuario-service\pom.xml.
+2022-11-11 10:54:54,808 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-11 10:54:54,808 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-11 10:54:54,808 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-11 10:54:54,809 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-11 10:54:54,813 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-11 10:54:54,813 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-11 10:54:54,814 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lgonzavi\Desktop\Microservicios-tutorial\usuario-service\src\test\resources
+2022-11-11 10:54:56,326 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-11 10:54:56,326 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-11 10:54:56,328 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-11 10:54:56,329 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-11 10:54:56,334 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-11 10:54:56,334 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-11 10:54:56,335 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lgonzavi\Desktop\Microservicios-tutorial\carro-service\src\test\resources
+2022-11-11 10:55:13,299 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-11 10:55:13,299 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-11 10:55:13,299 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lgonzavi\Desktop\Microservicios-tutorial\eureka-service\target\classes\META-INF\maven\com.eureka.service\eureka-service\src\main\resources
+2022-11-11 10:55:13,300 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lgonzavi\Desktop\Microservicios-tutorial\eureka-service\target\classes\META-INF\maven\com.eureka.service\eureka-service\src\main\resources
+2022-11-11 10:55:13,301 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-11 10:55:13,301 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-11 10:55:13,301 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lgonzavi\Desktop\Microservicios-tutorial\eureka-service\target\classes\META-INF\maven\com.eureka.service\eureka-service\src\test\resources
+2022-11-11 10:55:13,309 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-11 10:55:13,309 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-11 10:55:13,309 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lgonzavi\Desktop\Microservicios-tutorial\gateway-service\target\classes\META-INF\maven\com.gateway.service\gateway-service\src\main\resources
+2022-11-11 10:55:13,309 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lgonzavi\Desktop\Microservicios-tutorial\gateway-service\target\classes\META-INF\maven\com.gateway.service\gateway-service\src\main\resources
+2022-11-11 10:55:13,310 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-11 10:55:13,310 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-11 10:55:13,310 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lgonzavi\Desktop\Microservicios-tutorial\gateway-service\target\classes\META-INF\maven\com.gateway.service\gateway-service\src\test\resources
+2022-11-20 17:05:50,176 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
