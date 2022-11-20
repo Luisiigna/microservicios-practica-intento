@@ -981,3 +981,196 @@ Contains: Missing org.springframework.cloud:spring-cloud-starter-loadbalancer:ja
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-07 13:39:42.295
 !MESSAGE executing callback sts4.classpath.djDVLQMI SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-20 17:13:20.383
+!MESSAGE Failed to update qualified index.
+!STACK 0
+java.io.UTFDataFormatException
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readStreamChars(DiskIndex.java:983)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readChunk(DiskIndex.java:755)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readAllDocumentNames(DiskIndex.java:640)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeWith(DiskIndex.java:532)
+	at org.eclipse.jdt.internal.core.index.Index.save(Index.java:230)
+	at org.eclipse.jdt.internal.core.index.MetaIndex.save(MetaIndex.java:100)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveMetaIndex(IndexManager.java:1248)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndexes(IndexManager.java:1224)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.notifyIdle(IndexManager.java:819)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:422)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-11-20 17:13:21.116
+!MESSAGE Failed to update meta index
+!STACK 0
+java.io.IOException: Failed to read index data from file:/C:/Users/lgonzavi/Desktop/Microservicios-tutorial/.metadata/.plugins/org.eclipse.jdt.core/354514761.index at offset 5204 and size 1399157366
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readCategoryTable(DiskIndex.java:685)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.addQueryResults(DiskIndex.java:180)
+	at org.eclipse.jdt.internal.core.index.Index.query(Index.java:169)
+	at org.eclipse.jdt.internal.core.index.Index.getMetaIndexQualifications(Index.java:259)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$MetaIndexUpdateRequest.execute(IndexManager.java:1786)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:441)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+	at org.eclipse.jdt.internal.compiler.util.HashtableOfObject.<init>(HashtableOfObject.java:56)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readCategoryTable(DiskIndex.java:681)
+	... 6 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-11-20 17:13:25.681
+!MESSAGE Failed to save JDT index: Index for /carro-service
+!STACK 0
+java.io.IOException: Failed to read index data from file:/C:/Users/lgonzavi/Desktop/Microservicios-tutorial/.metadata/.plugins/org.eclipse.jdt.core/354514761.index at offset 345 and size 240280945
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readCategoryTable(DiskIndex.java:685)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeCategory(DiskIndex.java:485)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeCategories(DiskIndex.java:477)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeWith(DiskIndex.java:579)
+	at org.eclipse.jdt.internal.core.index.Index.save(Index.java:230)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndex(IndexManager.java:1143)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndexes(IndexManager.java:1201)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.notifyIdle(IndexManager.java:819)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:422)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+	at org.eclipse.jdt.internal.compiler.util.HashtableOfObject.<init>(HashtableOfObject.java:57)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readCategoryTable(DiskIndex.java:681)
+	... 9 more
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-20 17:13:25.699
+!MESSAGE Failed to update qualified index.
+!STACK 0
+java.io.UTFDataFormatException
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readStreamChars(DiskIndex.java:983)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readChunk(DiskIndex.java:755)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readAllDocumentNames(DiskIndex.java:640)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeWith(DiskIndex.java:532)
+	at org.eclipse.jdt.internal.core.index.Index.save(Index.java:230)
+	at org.eclipse.jdt.internal.core.index.MetaIndex.save(MetaIndex.java:100)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveMetaIndex(IndexManager.java:1248)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndexes(IndexManager.java:1224)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.notifyIdle(IndexManager.java:819)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:422)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.ui 2 2 2022-11-20 17:13:35.281
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-11-20 17:13:37.916
+!MESSAGE Failed to save JDT index: Index for /carro-service
+!STACK 0
+java.io.IOException: Failed to read index data from file:/C:/Users/lgonzavi/Desktop/Microservicios-tutorial/.metadata/.plugins/org.eclipse.jdt.core/354514761.index at offset 345 and size 240280945
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readCategoryTable(DiskIndex.java:685)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeCategory(DiskIndex.java:485)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeCategories(DiskIndex.java:477)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeWith(DiskIndex.java:579)
+	at org.eclipse.jdt.internal.core.index.Index.save(Index.java:230)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndex(IndexManager.java:1143)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndexes(IndexManager.java:1201)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.notifyIdle(IndexManager.java:819)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:422)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-20 17:13:37.920
+!MESSAGE Failed to update qualified index.
+!STACK 0
+java.io.UTFDataFormatException
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readStreamChars(DiskIndex.java:983)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readChunk(DiskIndex.java:755)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readAllDocumentNames(DiskIndex.java:640)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeWith(DiskIndex.java:532)
+	at org.eclipse.jdt.internal.core.index.Index.save(Index.java:230)
+	at org.eclipse.jdt.internal.core.index.MetaIndex.save(MetaIndex.java:100)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveMetaIndex(IndexManager.java:1248)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndexes(IndexManager.java:1224)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.notifyIdle(IndexManager.java:819)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:422)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-11-20 17:13:42.877
+!MESSAGE Failed to save JDT index: Index for /carro-service
+!STACK 0
+java.io.IOException: Failed to read index data from file:/C:/Users/lgonzavi/Desktop/Microservicios-tutorial/.metadata/.plugins/org.eclipse.jdt.core/354514761.index at offset 345 and size 240280945
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readCategoryTable(DiskIndex.java:685)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeCategory(DiskIndex.java:485)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeCategories(DiskIndex.java:477)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeWith(DiskIndex.java:579)
+	at org.eclipse.jdt.internal.core.index.Index.save(Index.java:230)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndex(IndexManager.java:1143)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndexes(IndexManager.java:1201)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.notifyIdle(IndexManager.java:819)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:422)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-20 17:13:42.879
+!MESSAGE Failed to update qualified index.
+!STACK 0
+java.io.UTFDataFormatException
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readStreamChars(DiskIndex.java:983)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readChunk(DiskIndex.java:755)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readAllDocumentNames(DiskIndex.java:640)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeWith(DiskIndex.java:532)
+	at org.eclipse.jdt.internal.core.index.Index.save(Index.java:230)
+	at org.eclipse.jdt.internal.core.index.MetaIndex.save(MetaIndex.java:100)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveMetaIndex(IndexManager.java:1248)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndexes(IndexManager.java:1224)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.notifyIdle(IndexManager.java:819)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:422)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.core.resources 4 271 2022-11-20 17:13:42.884
+!MESSAGE Errors occurred while refreshing resources with the local file system.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2022-11-20 17:13:42.884
+!MESSAGE The project description file (.project) for 'com.gateway.service_gateway-service' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'com.gateway.service_gateway-service' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
+	at org.eclipse.core.internal.resources.Project.updateDescription(Project.java:1347)
+	at org.eclipse.core.internal.resources.File.updateMetadataFiles(File.java:379)
+	at org.eclipse.core.internal.localstore.RefreshLocalVisitor.visit(RefreshLocalVisitor.java:291)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:119)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource(FileSystemResourceManager.java:978)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:961)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1568)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration0(ProjectConfigurationManager.java:398)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$1(ProjectConfigurationManager.java:362)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1411)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:361)
+	at org.eclipse.m2e.core.ui.internal.UpdateMavenProjectJob.runInWorkspace(UpdateMavenProjectJob.java:80)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-11-20 17:13:49.650
+!MESSAGE Failed to save JDT index: Index for /carro-service
+!STACK 0
+java.io.IOException: Failed to read index data from file:/C:/Users/lgonzavi/Desktop/Microservicios-tutorial/.metadata/.plugins/org.eclipse.jdt.core/354514761.index at offset 345 and size 240280945
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readCategoryTable(DiskIndex.java:685)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeCategory(DiskIndex.java:485)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeCategories(DiskIndex.java:477)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeWith(DiskIndex.java:579)
+	at org.eclipse.jdt.internal.core.index.Index.save(Index.java:230)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndex(IndexManager.java:1143)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndexes(IndexManager.java:1201)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.notifyIdle(IndexManager.java:819)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:422)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+
+!ENTRY org.eclipse.jdt.core 4 0 2022-11-20 17:13:49.657
+!MESSAGE Failed to update qualified index.
+!STACK 0
+java.io.UTFDataFormatException
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readStreamChars(DiskIndex.java:983)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readChunk(DiskIndex.java:755)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readAllDocumentNames(DiskIndex.java:640)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeWith(DiskIndex.java:532)
+	at org.eclipse.jdt.internal.core.index.Index.save(Index.java:230)
+	at org.eclipse.jdt.internal.core.index.MetaIndex.save(MetaIndex.java:100)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveMetaIndex(IndexManager.java:1248)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndexes(IndexManager.java:1224)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.notifyIdle(IndexManager.java:819)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:422)
+	at java.base/java.lang.Thread.run(Thread.java:833)
